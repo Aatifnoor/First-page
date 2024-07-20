@@ -1,0 +1,102 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.1)), url('https://wallpapercave.com/wp/Om3yOQJ.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    transition: all 1s ;
+    
+}
+
+nav ul li a:hover{
+    transform: scale(1.1);
+    color: red;  
+    
+} 
+
+.main {
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing : 4px
+}
+
+.main p {
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.main button{
+   border-radius: 10px;
+   border :none;
+   padding: 15px 25px;
+   background-color: transparent;
+   color: white;
+   font-size: 17px;
+   font-weight: 400;
+   transition: all 1s;
+}
+.main button:hover{
+    transform: scale(0.5.0.5);
+    margin: 10px;
+    background-color:rgb(113, 54, 54);
+}
+
+footer {
+    text-align: center;
+}
+
+.icon { 
+    margin: 7px;
+    padding-top: 30px;
+    color: white;transition: all 1s;
+}
+.icon:hover{
+    transform: scale(0.5.0.5);
+    color: red;
+}
